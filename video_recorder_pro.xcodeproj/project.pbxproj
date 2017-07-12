@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18C9308D1F1601A4004AE816 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C9308C1F1601A4004AE816 /* main.m */; };
+		18C930901F1601A4004AE816 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C9308F1F1601A4004AE816 /* AppDelegate.m */; };
+		18C930931F1601A4004AE816 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C930921F1601A4004AE816 /* ViewController.m */; };
+		18C930961F1601A4004AE816 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C930941F1601A4004AE816 /* Main.storyboard */; };
+		18C930981F1601A4004AE816 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C930971F1601A4004AE816 /* Assets.xcassets */; };
+		18C9309B1F1601A4004AE816 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C930991F1601A4004AE816 /* LaunchScreen.storyboard */; };
+		18C930A61F1601A4004AE816 /* video_recorder_proTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C930A51F1601A4004AE816 /* video_recorder_proTests.m */; };
+		18C930B11F1601A4004AE816 /* video_recorder_proUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C930B01F1601A4004AE816 /* video_recorder_proUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18C930A21F1601A4004AE816 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18C930801F1601A4004AE816 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18C930871F1601A4004AE816;
+			remoteInfo = video_recorder_pro;
+		};
+		18C930AD1F1601A4004AE816 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18C930801F1601A4004AE816 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18C930871F1601A4004AE816;
+			remoteInfo = video_recorder_pro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18C930881F1601A4004AE816 /* video_recorder_pro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = video_recorder_pro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C9308C1F1601A4004AE816 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18C9308E1F1601A4004AE816 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18C9308F1F1601A4004AE816 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18C930911F1601A4004AE816 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18C930921F1601A4004AE816 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18C930951F1601A4004AE816 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18C930971F1601A4004AE816 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18C9309A1F1601A4004AE816 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18C9309C1F1601A4004AE816 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C930A11F1601A4004AE816 /* video_recorder_proTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = video_recorder_proTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C930A51F1601A4004AE816 /* video_recorder_proTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = video_recorder_proTests.m; sourceTree = "<group>"; };
+		18C930A71F1601A4004AE816 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C930AC1F1601A4004AE816 /* video_recorder_proUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = video_recorder_proUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C930B01F1601A4004AE816 /* video_recorder_proUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = video_recorder_proUITests.m; sourceTree = "<group>"; };
+		18C930B21F1601A4004AE816 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18C930851F1601A4004AE816 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C9309E1F1601A4004AE816 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C930A91F1601A4004AE816 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18C9307F1F1601A3004AE816 = {
+			isa = PBXGroup;
+			children = (
+				18C9308A1F1601A4004AE816 /* video_recorder_pro */,
+				18C930A41F1601A4004AE816 /* video_recorder_proTests */,
+				18C930AF1F1601A4004AE816 /* video_recorder_proUITests */,
+				18C930891F1601A4004AE816 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18C930891F1601A4004AE816 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18C930881F1601A4004AE816 /* video_recorder_pro.app */,
+				18C930A11F1601A4004AE816 /* video_recorder_proTests.xctest */,
+				18C930AC1F1601A4004AE816 /* video_recorder_proUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18C9308A1F1601A4004AE816 /* video_recorder_pro */ = {
+			isa = PBXGroup;
+			children = (
+				18C9308E1F1601A4004AE816 /* AppDelegate.h */,
+				18C9308F1F1601A4004AE816 /* AppDelegate.m */,
+				18C930911F1601A4004AE816 /* ViewController.h */,
+				18C930921F1601A4004AE816 /* ViewController.m */,
+				18C930941F1601A4004AE816 /* Main.storyboard */,
+				18C930971F1601A4004AE816 /* Assets.xcassets */,
+				18C930991F1601A4004AE816 /* LaunchScreen.storyboard */,
+				18C9309C1F1601A4004AE816 /* Info.plist */,
+				18C9308B1F1601A4004AE816 /* Supporting Files */,
+			);
+			path = video_recorder_pro;
+			sourceTree = "<group>";
+		};
+		18C9308B1F1601A4004AE816 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18C9308C1F1601A4004AE816 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18C930A41F1601A4004AE816 /* video_recorder_proTests */ = {
+			isa = PBXGroup;
+			children = (
+				18C930A51F1601A4004AE816 /* video_recorder_proTests.m */,
+				18C930A71F1601A4004AE816 /* Info.plist */,
+			);
+			path = video_recorder_proTests;
+			sourceTree = "<group>";
+		};
+		18C930AF1F1601A4004AE816 /* video_recorder_proUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18C930B01F1601A4004AE816 /* video_recorder_proUITests.m */,
+				18C930B21F1601A4004AE816 /* Info.plist */,
+			);
+			path = video_recorder_proUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18C930871F1601A4004AE816 /* video_recorder_pro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C930B51F1601A4004AE816 /* Build configuration list for PBXNativeTarget "video_recorder_pro" */;
+			buildPhases = (
+				18C930841F1601A4004AE816 /* Sources */,
+				18C930851F1601A4004AE816 /* Frameworks */,
+				18C930861F1601A4004AE816 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = video_recorder_pro;
+			productName = video_recorder_pro;
+			productReference = 18C930881F1601A4004AE816 /* video_recorder_pro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18C930A01F1601A4004AE816 /* video_recorder_proTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C930B81F1601A4004AE816 /* Build configuration list for PBXNativeTarget "video_recorder_proTests" */;
+			buildPhases = (
+				18C9309D1F1601A4004AE816 /* Sources */,
+				18C9309E1F1601A4004AE816 /* Frameworks */,
+				18C9309F1F1601A4004AE816 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18C930A31F1601A4004AE816 /* PBXTargetDependency */,
+			);
+			name = video_recorder_proTests;
+			productName = video_recorder_proTests;
+			productReference = 18C930A11F1601A4004AE816 /* video_recorder_proTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18C930AB1F1601A4004AE816 /* video_recorder_proUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C930BB1F1601A4004AE816 /* Build configuration list for PBXNativeTarget "video_recorder_proUITests" */;
+			buildPhases = (
+				18C930A81F1601A4004AE816 /* Sources */,
+				18C930A91F1601A4004AE816 /* Frameworks */,
+				18C930AA1F1601A4004AE816 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18C930AE1F1601A4004AE816 /* PBXTargetDependency */,
+			);
+			name = video_recorder_proUITests;
+			productName = video_recorder_proUITests;
+			productReference = 18C930AC1F1601A4004AE816 /* video_recorder_proUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18C930801F1601A4004AE816 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = xiaokai.zhan;
+				TargetAttributes = {
+					18C930871F1601A4004AE816 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					18C930A01F1601A4004AE816 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18C930871F1601A4004AE816;
+					};
+					18C930AB1F1601A4004AE816 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18C930871F1601A4004AE816;
+					};
+				};
+			};
+			buildConfigurationList = 18C930831F1601A4004AE816 /* Build configuration list for PBXProject "video_recorder_pro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18C9307F1F1601A3004AE816;
+			productRefGroup = 18C930891F1601A4004AE816 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18C930871F1601A4004AE816 /* video_recorder_pro */,
+				18C930A01F1601A4004AE816 /* video_recorder_proTests */,
+				18C930AB1F1601A4004AE816 /* video_recorder_proUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18C930861F1601A4004AE816 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C9309B1F1601A4004AE816 /* LaunchScreen.storyboard in Resources */,
+				18C930981F1601A4004AE816 /* Assets.xcassets in Resources */,
+				18C930961F1601A4004AE816 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C9309F1F1601A4004AE816 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C930AA1F1601A4004AE816 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18C930841F1601A4004AE816 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C930931F1601A4004AE816 /* ViewController.m in Sources */,
+				18C930901F1601A4004AE816 /* AppDelegate.m in Sources */,
+				18C9308D1F1601A4004AE816 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C9309D1F1601A4004AE816 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C930A61F1601A4004AE816 /* video_recorder_proTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C930A81F1601A4004AE816 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C930B11F1601A4004AE816 /* video_recorder_proUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18C930A31F1601A4004AE816 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18C930871F1601A4004AE816 /* video_recorder_pro */;
+			targetProxy = 18C930A21F1601A4004AE816 /* PBXContainerItemProxy */;
+		};
+		18C930AE1F1601A4004AE816 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18C930871F1601A4004AE816 /* video_recorder_pro */;
+			targetProxy = 18C930AD1F1601A4004AE816 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18C930941F1601A4004AE816 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18C930951F1601A4004AE816 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18C930991F1601A4004AE816 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18C9309A1F1601A4004AE816 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18C930B31F1601A4004AE816 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18C930B41F1601A4004AE816 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18C930B61F1601A4004AE816 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = video_recorder_pro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.phuket.tour.video-recorder-pro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18C930B71F1601A4004AE816 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = video_recorder_pro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.phuket.tour.video-recorder-pro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18C930B91F1601A4004AE816 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = video_recorder_proTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.phuket.tour.video-recorder-proTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/video_recorder_pro.app/video_recorder_pro";
+			};
+			name = Debug;
+		};
+		18C930BA1F1601A4004AE816 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = video_recorder_proTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.phuket.tour.video-recorder-proTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/video_recorder_pro.app/video_recorder_pro";
+			};
+			name = Release;
+		};
+		18C930BC1F1601A4004AE816 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = video_recorder_proUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.phuket.tour.video-recorder-proUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = video_recorder_pro;
+			};
+			name = Debug;
+		};
+		18C930BD1F1601A4004AE816 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = video_recorder_proUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.phuket.tour.video-recorder-proUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = video_recorder_pro;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18C930831F1601A4004AE816 /* Build configuration list for PBXProject "video_recorder_pro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C930B31F1601A4004AE816 /* Debug */,
+				18C930B41F1601A4004AE816 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18C930B51F1601A4004AE816 /* Build configuration list for PBXNativeTarget "video_recorder_pro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C930B61F1601A4004AE816 /* Debug */,
+				18C930B71F1601A4004AE816 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18C930B81F1601A4004AE816 /* Build configuration list for PBXNativeTarget "video_recorder_proTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C930B91F1601A4004AE816 /* Debug */,
+				18C930BA1F1601A4004AE816 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18C930BB1F1601A4004AE816 /* Build configuration list for PBXNativeTarget "video_recorder_proUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C930BC1F1601A4004AE816 /* Debug */,
+				18C930BD1F1601A4004AE816 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18C930801F1601A4004AE816 /* Project object */;
+}
