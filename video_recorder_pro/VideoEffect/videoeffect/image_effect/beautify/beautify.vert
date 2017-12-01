@@ -1,0 +1,16 @@
+static char* BEAUTIFY_VERTEX_SHADER =
+"#version 100                               \n"
+"#ifdef GL_ES                               \n"
+"precision highp float;                     \n"
+"#endif                                     \n"
+"                                           \n"
+"attribute vec4 position;                   \n"
+"attribute vec2 texcoord;                   \n"
+"                                           \n"
+"varying highp vec2 coordinate;             \n"
+"                                           \n"
+"void main()                                \n"
+"{                                          \n"
+"   coordinate = texcoord;                  \n"
+"   gl_Position = position;                 \n"
+"}                                          \n";

@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "ELPushStreamViewController.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+}
+
+- (IBAction)forwardToRecorder:(id)sender {
+    NSLog(@"Forward To Recorder Page...");
+    ELPushStreamViewController* viewController = [[ELPushStreamViewController alloc] init];
+    [[self navigationController] pushViewController:viewController animated:YES];
 }
 
 
